@@ -1,0 +1,23 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "",
+  "source": "templates/weather/index.html",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build static_src/index.jsx --out-dir static --no-source-maps",
+    "watch": "parcel watch static_src/index.jsx --out-dir static --no-source-maps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "@react-google-maps/api": "^2.19.2",
+    "axios": "^1.6.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
